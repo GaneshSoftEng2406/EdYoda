@@ -1,0 +1,95 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: darkgray;
+    border: 7px solid white;
+    padding:20px;
+    margin:20px;
+    height:5000px;
+
+}
+body{
+    background-color:aqua;
+    border: 7px solid black;
+    padding:10px;
+    margin:0px;
+}
+
+.parent{
+    background-color: crimson;
+    border: 5px solid black;
+/*     padding:10px; */
+    margin:10px;
+}
+/* .parent div{
+    background-color:rgb(219, 200, 175);
+    border: 5px solid black;
+    padding:10px;
+    margin:0px;
+    height: 100px;
+    width:100px;
+    color:black
+
+} */
+
+/* .parent .child1{
+    position:fixed;
+    top:0;
+    left:0;
+    margin:0;
+    width:100%
+} */
+
+.child1{
+    background-color:rgb(219, 200, 175);
+    border: 5px solid black;
+    padding:10px;
+ /*    margin:10px; */
+    height: 200px;
+ /*    width:200px; */
+    color:black;
+  /*   display: inline-block;
+    width:27%;
+ */
+ /* we can't give height an dwidth when we set display to inline */
+ display:inline-block; 
+ width:28%
+
+}
+.child2{
+    background-color:rgb(219, 200, 175);
+    border: 5px solid black;
+    padding:10px;
+    margin:10px;
+    height: 200px;
+/*     width:200px; */
+    color:black;
+    display: inline-block;
+    width:28%;
+
+
+}
+.child3{
+    background-color:rgb(219, 200, 175);
+    border: 5px solid black;
+    padding:10px;
+    margin:10px;
+    height: 200px;
+  /*   width:200px; */
+    color:black;
+    display: inline-block;
+    width:28%;
+
+
+
+}
+
+
+
+
+

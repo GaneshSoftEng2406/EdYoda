@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid black;
+    padding:20px;
+}
+.firstimg{
+    width:300px;
+    height:300px;
+    float:left;
+
+}
+.secondimg{
+    width:300px;
+    height:300px;
+    float:right;
+
+}
+p{
+    clear:both;
+}

@@ -1,0 +1,34 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    margin:10px;
+}
+
+.card{
+    width: 27%;
+    display:inline-block;
+    border-radius: 10px;
+    margin:10px;
+    background-color: antiquewhite;
+    padding:10px;
+   
+}
+
+.image img{
+    width:100%;
+    height: 200px;
+
+}
+.title{
+    text-align: center;
+}
+p{
+    font-size: small;
+    padding:10px;
+    text-align: center;
+}
+
+

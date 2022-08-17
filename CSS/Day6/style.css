@@ -1,0 +1,50 @@
+/* p::first-line{
+    color:azure;
+    background-color: blueviolet;
+    font-size: 30px;
+}
+p::first-letter{
+    color:azure;
+    background-color: blue;
+    font-size: 70px;
+}
+ */
+p{
+    font-size: 30px;
+}
+/* p::before{
+    content: "hiiii";
+    background-color: blue;
+    display:block;
+    color:white
+} */
+
+p:hover::before{
+    content: "hiiii";
+    background-color: blue;
+    color:white
+    
+}
+
+p::after{
+    content:"byee";
+    background-color: red;
+    color:white
+}
+
+a:link{
+    color:brown;
+}
+a:visited{
+    color:yellow;
+}
+a:hover{
+    color:blue;
+}
+p:first-child{
+    background-color: red;
+
+}
+h1:first-child{
+    background-color: aquamarine;
+}

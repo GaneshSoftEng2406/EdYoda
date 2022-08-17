@@ -1,0 +1,23 @@
+/* 1. descendant combinator */
+div h1{
+    color:red
+}
+
+/* 2.child combinator */
+
+
+div > p{
+    color: blue;
+}
+/*  3. general sibling combinator*/
+
+/* h1 ~ h2{
+    background-color: aquamarine;
+} */
+
+
+
+/* 4. adjacent sibling combinator */
+h1 + h2{
+    background-color: aquamarine;
+}

@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 600px;
+        }
+        .cycle{
+            width:50%;
+            height:50%;
+            /* transition: property transition-diuration transition-function delay */
+          /*   transition: transform 2s ease-out 1s; 
+ */
+        }
+        .cycle img{
+            width:100%;
+        }
+        .container:hover .cycle{
+           /*  transform: translateX(100%); */
+
+            /* animation */
+            animation-name: Cycling;
+            animation-duration: 2s;
+            animation-iteration-count: 4;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes Cycling{
+
+            0%{
+                transform: translateX(0%);
+
+            }
+            33%{
+                transform: translateY(100%);
+
+                
+            }
+            66%{
+                transform: translateX(100%) translateY(100%);
+
+            }
+            100%{
+                transform: translateX(100%);
+
+
+            }
+            
+   
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cycle">
+            <img src="./cycle.png">
+        </div>
+    </div>
+</body>
+</html>

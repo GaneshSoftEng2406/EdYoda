@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign up Form</h1>
+    <form action="formdata.html" method="get">
+        <fieldset>
+            <legend>Enter your details here:</legend>
+            <div>
+                <label for="username">User Name : </label>
+                <input type="text" id="username" placeholder="Enter your user name" name="username" required>
+            </div>
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" id="email" placeholder="Enter your email id"  name="email" required>
+            </div>
+            <div>
+                <label for="password">password : </label>
+                <input type="password" id="password" placeholder="Enter your password" name="password" required>
+            </div>
+            <div>
+                <label>DOB:</label>
+                <input type="date" name="dob">
+            </div>
+
+            <br>
+            <div>
+                <label>Gender</label>
+                <br>
+                <label for="male">Male</label>
+                <input type="radio" id="male" value="male" name="gender">
+
+                <br>
+                <label for="female">Female</label>
+                <input type="radio" id="female" value="female" name="gender">
+
+                <br>
+                <label for="other">Other</label>
+                <input type="radio" id="other" value="other" name="gender">
+
+            </div>
+
+            <label for="city">City:</label>
+            <select name="cityname" id="city">
+                <option value="city1">Kolkata</option>
+                <option value="city2">Bangalore</option>
+                <option value="city3">Mumbai</option>
+                <option value="city4">Delhi</option>
+                <option value="city5">Pune</option>
+
+            </select>
+          <!--   <select name="cityname" id="city">
+                <option name="cityname"value="city1">Kolkata</option>
+                <option name="cityname"value="city2">Banaglore</option>
+                <option name="cityname "value="city3">Mumbai</option>
+                <option name="cityname" value="city4">Delhi</option>
+                <option name="cityname" value="city5">Pune</option>
+
+            </select> -->
+            <div>
+              
+                <input type="checkbox" name="tnc" id="tnc">
+                <label for="tnc">Agree to the terms nd conditions</label>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="10" max="150">
+            </div>
+            <div>
+                <label for="phoneno">Phone no</label>
+                <select id="code">
+                    <option value="91">+91</option>
+                    <option value="1">+1</option>
+                    <option value="92">+92</option>
+                </select>
+                <input type="tel" name="phoneno" id="phoneno">
+
+            </div>
+
+            <div>
+                <label for="desc">Enter your description</label>
+                <textarea id="desc" name="desc"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </fieldset>
+       
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.grad{
+    background-image: linear-gradient(to left,blue,red);
+    height:500px;
+}
+
+h1{
+    background: linear-gradient(to right, darkblue, darkorchid);
+    color: transparent;
+    background-clip: text;
+  }

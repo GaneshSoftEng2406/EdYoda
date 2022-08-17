@@ -1,0 +1,50 @@
+
+.grandpaa{
+    border:  2px solid red;
+    height: 4000px;
+    margin-top: 70px;
+    position:relative;
+
+}
+.parent{
+    border:  2px solid blue;
+    height: 4000px;
+    margin:30px;
+    position:relative;
+
+}
+.children{
+    
+    border:  2px solid black;
+    padding:20px;
+    margin:10px;
+    display:inline-block;
+    width:250px;
+    height:150px;
+}
+/* #two{
+    position:fixed;
+    top:10;
+    left:20;
+}
+ */
+
+ /* relative - relative to it's normal position
+     fixed - the position contect is the viewport
+     absolute - position context depends
+     if u don't have any ancestors with positioning property applied then the positioning context is the html element
+     if u have any ancestor with the positioning property applied then the element will be positioned relative to the closest ancestor
+
+
+ 
+ */
+#two{
+    position:sticky; /* combination of relative and fixed */
+    top:0;
+   
+}
+/* #two{
+    position:absolute;
+    top:0;
+   
+} */

@@ -1,0 +1,38 @@
+h1{
+    color:brown;
+    font-size: 50px;
+}
+
+.redPara{
+    color:red;
+}
+.greenPara{
+    color:green
+}
+.bluePara{
+    color:blue
+}
+
+#yellowPara{
+    color:yellow
+}
+
+
+li a:hover{
+    background-color:burlywood
+}
+ul{
+    overflow: hidden;
+    background-color: blanchedalmond;
+}
+li{
+    list-style: none;
+    float:left
+}
+li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+
+}

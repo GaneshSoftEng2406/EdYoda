@@ -1,0 +1,35 @@
+.children{
+    width:150px;
+    height:150px;
+}
+#child1{
+    border: 2px solid red;
+    background-color: yellow;
+    position:relative;
+    top:40;
+    left:40;
+   /*  display: none;/* it will hide the element and it will ide the space too */ 
+   visibility: hidden; /* it will hide the element but it will give some empty space */
+   
+
+}
+#child2{
+    border: 2px solid blue;
+    background-color: chartreuse;
+    position:relative;
+    top:60;
+    left:40;
+    z-index:1;
+ 
+
+   
+}
+#child3{
+    border: 2px solid blue;
+    background-color: rgb(116, 0, 0);
+    position:relative;
+    top:0;
+    left:40;
+    color:white;
+    z-index: 0;
+}

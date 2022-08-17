@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px
+}
+
+.card{
+    width: 30%;
+    display:inline-block;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 8px grey;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.image img{
+    width:100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.text-content{
+    padding:12px;
+}
+
+li a:hover{
+    background-color:burlywood
+}
+ul{
+    overflow: hidden;
+    background-color: blanchedalmond;
+}
+li{
+    list-style: none;
+    float:left
+}
+li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+

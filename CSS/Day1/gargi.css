@@ -1,0 +1,42 @@
+html{
+    background-color: darkgray;
+    border: 7px solid white;
+    padding:20px;
+    margin:20px;
+    height:5000px;
+
+}
+body{
+    background-color:aqua;
+    border: 7px solid black;
+    padding:10px;
+    margin:0px;
+}
+
+.parent{
+    background-color: crimson;
+    border: 5px solid black;
+    padding:10px;
+    margin:10px;
+}
+.parent div{
+    background-color:antiquewhite;
+    border: 5px solid black;
+    padding:10px;
+    margin:10px;
+    color:black
+
+}
+
+.parent .child1{
+    position:fixed;
+    top:0;
+    left:0;
+    margin:0;
+    width:100%
+
+
+}
+
+
+

@@ -1,0 +1,62 @@
+.container{
+    background-color: bisque;
+    border: 2px solid black;
+    margin:20px;
+    display:flex;
+    /* by default the flex-direction is horizontal */
+    height:600px;
+   /*  flex-direction: row-reverse; */
+   flex-direction: row;
+
+   justify-content:center;
+   /* justify-content: flex-start; */
+  /*  justify-content:flex-end; */
+     /*  justify-content:space-around; */
+    /*  justify-content:space-between; */
+    /*  justify-content:space-between; */
+
+    align-items:center;
+    flex-wrap:wrap;
+    /* shorthand for flex-direction flex-wrap */
+  /*   flex-flow: row wrap; */
+}
+.box{
+    width:200px;
+    height:200px;
+    background-color: darksalmon;
+    border: 2px solid black;
+    margin:10px;
+    padding:20px;
+}
+
+.box1{
+    order:4;
+    flex-grow: 2;
+}
+.box2{
+    order:5;
+}
+.box3{
+    order:3;
+}
+.box4{
+    order:8;
+}
+
+
+/* .box1{
+    width:100px;
+    height:50px;
+}
+.box2{
+    width:80px;
+    height:80px;
+}
+.box3{
+    width:100px;
+    height:50px;
+}
+.box4{
+    width:100px;
+    height:50px;
+} */

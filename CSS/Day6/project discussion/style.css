@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:30px;
+
+
+}
+
+.card{
+    width:50%;
+    margin:20px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px;;
+}
+
+.card-highlight{
+    display: inline-block;
+
+}
+.blue{
+    display: none;
+}
+.card:hover .blue{
+    display:inline
+}
+.card:hover .grey{
+    display:none
+}
+.card:hover{
+    background-color:burlywood;
+    box-shadow: 0 0 10px grey;
+}
+.title{
+    position:relative;
+    bottom:10px;
+}
+
+

@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rectangle{
+            padding:15px;
+            background-color: aquamarine;
+            border-radius: 15px;
+            display:none
+        }
+        .heading{
+            font-size: 30px;
+        }
+        .para{
+            font-size: 20px;
+        }
+
+
+        @media (min-width: 175px) and (max-width: 367px){
+           /*  375<x<667 */
+            #iphone{
+                display:block;
+                background-color: brown;
+                color:blue
+            }
+        }
+        @media (min-width: 367px) and (max-width: 600px){
+           /*  375<x<667 */
+            #android{
+                display:block;
+                background-color:rgb(0, 155, 62);
+                color:cyan;
+            }
+        }
+        @media (min-width: 617px) and (max-width: 810px){
+           /*  375<x<667 */
+            #tablet{
+                display:block;
+                background-color:rgb(176, 80, 255);
+                color:cyan;
+            }
+        }
+        @media (min-width: 867px) and (max-width: 1000px){
+           /*  375<x<667 */
+            #laptop{
+                display:block;
+                background-color:rgb(255, 80, 80);
+                color:cyan;
+            }
+        }
+
+        @media (orientation: portrait) ,(min-width:350px){
+            .heading{
+                color: aliceblue;
+            }
+
+        }
+
+        @media only print{ 
+            .heading{
+                color: red;
+            }
+           
+    
+    
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rectangle" id="iphone">
+            <h1 class="heading">my iphone</h1>
+            <p class="para">Lorem ipsum dolor sit amet.</p>
+            </div>
+        <div class="rectangle" id="android">  
+               <h1 class="heading">android</h1></div>
+        <div class="rectangle" id="tablet">tablet</div>
+        <div class="rectangle" id="laptop">laptop</div>
+        <div class="rectangle" id="desktop">desktop</div>
+        <div class="rectangle" id="super">super computer</div>
+    </div>
+</body>
+</html>

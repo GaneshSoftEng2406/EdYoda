@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+   
+  }
+  body {
+    margin:2% 2% 0 2%;
+    font-family: "sans-serif";
+  
+  }
+  #mainpage {
+    position: relative;
+  }
+  .mainsection {
+    overflow: hidden;
+  }
+  .banner {
+    position: relative;
+    display: flex;
+    height: 85vh;
+    padding:0 5% 0 5%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1c3cc;
+    background-image: linear-gradient(
+        16deg,
+        rgba(193, 195, 204, 0.83) 35%,
+        rgba(193, 195, 204, 0.28) 65%
+      ),
+      url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+    background-position: 0px 0px, 50% 0%;
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+  }
+
+  
+  .navigation{
+    position: absolute ;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: flex;
+    width: 90%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0%;
+    padding-left: 0%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+   
+  }
+  
+  .brand {
+    position: absolute;
+    display: flex;
+    height: 110px;
+    padding-right: 35px;
+    padding-left: 35px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background-color: #e47312;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    margin-left: auto;
+  }
+  .navlink{
+    padding: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color:black;
+    text-transform: uppercase;
+    position:relative;
+
+  }
+
+  .navlink::before{
+    content:"";
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    background-color: #e47312;
+    transition: 0.3s;
+    width:2px;
+    height:0;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    
+  }
+  .navlink::after{
+    content:"";
+    position:absolute;
+    left:0%;
+    right:0%;
+    bottom:0%;
+    background-color: #e47312;
+    transition: 0.3s;
+    width:2px;
+    height:0;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+  .navlink:hover::before{
+    height:25px;
+  }
+  .navlink:hover::after{
+    height:25px;
+  }
+  .navlink:hover{
+     color: #e47312;
+  }
+
+  .freequote{
+    height: 100%;
+    background-color: #e47312;
+    padding:30px;
+    color:white
+  }
+
+  .contactdetails{
+    position: absolute;
+    display:flex;
+    background-color: #e47312;
+    bottom:-80px;
+    right:0%;
+    width:1000px;
+    padding:10px;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+  }
+
+.detailswrapper{
+    display:flex;
+    width:100%;
+    padding:20px;
+    align-items:flex-start;
+    
+}
+.firstdiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+  
+
+}
+.infoimage{
+    width: 30px;
+    max-width: 100%;
+    vertical-align:middle;
+    margin-bottom: 15px;
+
+}
+.divheading{
+    text-transform: uppercase;
+
+
+}
+.divpara{
+    font-size: 15px;
+
+}
+.socialiconcontainer{
+    position:absolute;
+    right:0%;
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: black;
+    bottom:183px;
+}
+.socialicon{
+    width: 50px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middleheadingcontainer{
+    width:1000px;
+ 
+}
+.middleheadingitemwrapper{
+   
+}
+.middleheading{
+    position:relative;
+    margin-top: auto;
+    color: white;
+    font-size:70px;
+}
+.middlepara{
+    color: white;
+    font-size:25px;
+
+}
+.buttongetquote{
+    text-decoration: none;
+    padding:20px;
+    background-color: #e47312;
+    color: white;
+    
+}
+
+.section-upper{
+    padding: 10%;
+
+}
+.title-upper-item{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.title-left-upper{
+    position:relative;
+    text-transform: uppercase;
+    font-size: 35px;
+    z-index: 2;
+
+}
+.title-background{
+    position: absolute;
+    margin-top:0px;
+    left: -53px;
+    top: -26px;
+    z-index: 1;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 120px;
+    letter-spacing: 11px;
+}
+.title-right-upper{
+    position:relative;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+    color:black;
+    max-width: 100%;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.title-right-upper::after{
+    content:"";
+    background-color: #d8dcf3;
+    position:absolute;
+    bottom:0;
+    transition: 0.5s;
+    height:3px;
+    width:100%;
+}
+
+
+.title-right-upper:hover::after{
+    background-color: #e47312;
+    
+}
+
+.pics{
+    padding: 10%;
+}
+.pics-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pics-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+}
+.image-container{
+    width:33%;
+    padding:30px;
+
+}
+.main-img{
+    display:inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    position:relative;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.overlay-img{
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+
+
+}
+.overlay-data{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:10px;
+    background-image: linear-gradient(186deg, #e47312, #ff6361);
+    height:100px;
+    width:100px;
+    border-radius: 100%;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.image-container:hover .overlay-img{
+    opacity:1;
+
+}
+
+.below-image{
+    padding-top: 10%;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78))
+    ,url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    background-position: 0px 0px 50% 0;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll,fixed;
+}
+
+
+
+
+
+
+
+
